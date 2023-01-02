@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">BottNav0201</string>
+    <string name="app_name">BotNav2912</string>
+    <string name="greeting">Добро пожаловать. \n Начнём планировать \n твой день?!</string>
+    <string name="lets">Давай!</string>
+    <string name="home">Home</string>
+    <string name="calendar">Calendar</string>
+    <string name="empty">Empty</string>
+    <string name="progress">Progress</string>
+    <string name="setting">Setting</string>
 </resources>
