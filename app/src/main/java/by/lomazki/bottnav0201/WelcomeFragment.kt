@@ -28,7 +28,7 @@ class WelcomeFragment : Fragment() {
 
         binding.button.setOnClickListener {
 //            findNavController().navigate(R.id.action_global_main_container)       // тоже не работает
-            findNavController().navigate(NavigationContentDirections.actionGlobalMainContainer())
+            findNavController().navigate(NavigationWelcomeDirections.actionGlobalWelcome())
         }
     }
 

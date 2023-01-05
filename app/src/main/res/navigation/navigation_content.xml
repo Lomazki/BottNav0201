@@ -8,9 +8,7 @@
     <fragment
         android:id="@+id/main_container"
         android:name="by.lomazki.bottnav0201.ContentFragment"
-        tools:layout="@layout/fragment_first" />
+        tools:layout="@layout/fragment_content" />
 
-    <action android:id="@+id/action_global_main_container"
-        app:destination="@id/main_container"/>
 
 </navigation>
