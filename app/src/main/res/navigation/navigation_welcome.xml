@@ -12,12 +12,6 @@
     </fragment>
 
     <action android:id="@+id/action_global_welcome"
-        app:destination="@id/main_container"/>
-
-    <fragment
-        android:id="@+id/main_container"
-        android:name="by.lomazki.bottnav0201.ContentFragment"
-        tools:layout="@layout/fragment_content" >
-    </fragment>
+        app:destination="@id/navigation_content"/>
 
 </navigation>

@@ -6,11 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import by.lomazki.bottnav0201.databinding.FragmentFirstBinding
+import by.lomazki.bottnav0201.databinding.FragmentFifthBinding
 
 class FifthFragment : Fragment() {
 
-    private var _binding: FragmentFirstBinding? = null
+    private var _binding: FragmentFifthBinding? = null
     private val binding get() = requireNotNull(_binding)
 
     override fun onCreateView(
@@ -18,7 +18,7 @@ class FifthFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        return FragmentFirstBinding.inflate(inflater, container, false)
+        return FragmentFifthBinding.inflate(inflater, container, false)
             .also { _binding = it }
             .root
     }
